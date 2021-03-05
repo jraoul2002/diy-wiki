@@ -2,5 +2,6 @@
 
 This is a wiki.
 
-#about #default
+#about #defaultbolo 
+another thing
 

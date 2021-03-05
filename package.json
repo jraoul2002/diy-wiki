@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "nodemon server.js",
-    "start": "cd client && npm install && npm run build && cd .. && npm install && node server.js",
+    "start": "cd client && yarn install && yarn run build && cd .. && yarn install && node server.js",
     "demo": "node demo.min.js"
   
   },

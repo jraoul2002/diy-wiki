@@ -187,7 +187,7 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'));
 });
 
-app.listen(PORT, (err) => {
+app.listen(process.env.PORT || 4600, (err) => {
   if (err) {
     console.error(err);
     return;
